@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me - Рамазан Камалиев</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <style>
     body {
       padding-top: 50px;
@@ -15,6 +16,12 @@
     }
     .skills-table th, .skills-table td {
       text-align: center;
+    }
+    .progress {
+      height: 30px;
+    }
+    .contact-btn {
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -38,9 +45,18 @@
           <tr><th>Skills</th><th>Level</th></tr>
         </thead>
         <tbody>
-          <tr><td>HTML</td><td>Expert</td></tr>
-          <tr><td>CSS</td><td>Intermediate</td></tr>
-          <tr><td>JavaScript</td><td>Basic</td></tr>
+          <tr>
+            <td><i class="fab fa-html5"></i> HTML</td>
+            <td><div class="progress"><div class="progress-bar bg-success" role="progressbar" style="width: 100%;">Expert</div></div></td>
+          </tr>
+          <tr>
+            <td><i class="fab fa-css3-alt"></i> CSS</td>
+            <td><div class="progress"><div class="progress-bar bg-info" role="progressbar" style="width: 70%;">Intermediate</div></div></td>
+          </tr>
+          <tr>
+            <td><i class="fab fa-js"></i> JavaScript</td>
+            <td><div class="progress"><div class="progress-bar bg-warning" role="progressbar" style="width: 40%;">Basic</div></div></td>
+          </tr>
         </tbody>
       </table>
     </section>
@@ -50,9 +66,13 @@
       <a class="nav-link" href="hobbies.html">My Hobbies</a>
       <a class="nav-link" href="contacts.html">Contact Information</a>
     </nav>
+    <div class="text-center contact-btn">
+      <a href="tel:87778500035" class="btn btn-primary"><i class="fas fa-phone"></i> Contact Me: 87778500035</a>
+    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 </body>
 </html>
